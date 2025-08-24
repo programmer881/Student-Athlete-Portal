@@ -1,0 +1,16 @@
+ACADEMIC TRANSCRIPT - PLACEHOLDER
+
+Student: Zac Hutton
+School: Example High School
+Class: 2025
+
+This is a placeholder transcript file. In a real application, this would be an actual PDF transcript.
+
+Course List:
+- Mathematics: A
+- Science: A
+- English: A
+- History: A
+- Physical Education: A
+
+GPA: 4.02
