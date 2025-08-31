@@ -82,3 +82,5 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--muted-foreground);
 }
+
+/* Force update for deployment */
