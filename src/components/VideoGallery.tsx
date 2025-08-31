@@ -27,12 +27,14 @@ type VideoGalleryProps = {
 
 export function VideoGallery({ videos }: VideoGalleryProps) {
   return (
-    <section id="highlights" className="mx-auto max-w-6xl px-4 py-6">
-      <h2 className="text-2xl font-semibold tracking-tight">Highlights</h2>
-      <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <section id="highlights" className="mx-auto max-w-6xl px-4 py-16">
+      <h2 className="text-3xl font-bold tracking-tight text-center mb-12 bg-gradient-to-r from-slate-900 to-slate-600 dark:from-white dark:to-slate-300 bg-clip-text text-transparent">
+        Game Highlights
+      </h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {videos.map((video) => (
           <div key={video.url} className="group">
-            <div className="relative w-full overflow-hidden rounded-lg border border-black/10 dark:border-white/15 bg-black/5 dark:bg-white/10 aspect-video">
+            <div className="relative w-full overflow-hidden rounded-2xl border-2 border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 aspect-video shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
               <iframe
                 src={toEmbedUrl(video.url)}
                 title={video.title}
@@ -41,7 +43,7 @@ export function VideoGallery({ videos }: VideoGalleryProps) {
                 className="absolute inset-0 w-full h-full"
               />
             </div>
-            <p className="mt-2 text-sm text-black/75 dark:text-white/70">{video.title}</p>
+            <p className="mt-4 text-lg font-semibold text-slate-700 dark:text-slate-300 text-center">{video.title}</p>
           </div>
         ))}
       </div>

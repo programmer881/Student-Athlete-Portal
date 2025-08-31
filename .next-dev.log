@@ -1,0 +1,405 @@
+
+> student-athlete-portal@0.1.0 dev
+> next dev --turbopack --hostname 0.0.0.0 --port 3000
+
+   ▲ Next.js 15.5.0 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://0.0.0.0:3000
+
+ ✓ Starting...
+ ✓ Ready in 911ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.1s
+ GET / 200 in 2388ms
+ ✓ Compiled /_not-found/page in 189ms
+ GET /headshot.jpg 404 in 272ms
+ GET /transcript.pdf 404 in 310ms
+ ✓ Compiled /favicon.ico in 122ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 388ms
+ GET / 200 in 108ms
+ GET /transcript.pdf 404 in 143ms
+ ⚠ Cross origin request detected from 127.0.0.1 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET /headshot.jpg 404 in 126ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 245ms
+ ✓ Compiled in 116ms
+ ✓ Compiled / in 39ms
+ GET /transcript.pdf 404 in 150ms
+ GET / 200 in 157ms
+ GET / 200 in 193ms
+ GET /transcript.pdf 404 in 148ms
+ GET /transcript.pdf 404 in 78ms
+ GET /transcript.pdf 404 in 78ms
+ ✓ Compiled in 104ms
+ ✓ Compiled / in 17ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.6id45cxfvjr'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.6id45cxfvjr'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.08g1sksxqxck'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.08g1sksxqxck'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.clw3o62opr6'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.clw3o62opr6'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.d0hceljg3eg'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.d0hceljg3eg'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 691ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.ibrgs0mtbak'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.ibrgs0mtbak'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.tm1ll7dzq9'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.tm1ll7dzq9'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.o6jcjlvwz3h'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.o6jcjlvwz3h'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.iqf8id22xen'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.iqf8id22xen'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.08g1sksxqxck'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.08g1sksxqxck'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.lbaztf1ta3f'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.lbaztf1ta3f'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.pxm1phhgk3i'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.pxm1phhgk3i'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.6id45cxfvjr'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.6id45cxfvjr'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.k23e9fixan'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.k23e9fixan'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.dyq9dpffsso'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.dyq9dpffsso'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.nvivbwcbgvd'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.nvivbwcbgvd'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.a7qiss7j0u8'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.a7qiss7j0u8'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.he1gollfie'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.he1gollfie'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.6i2l25l4q4r'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.6i2l25l4q4r'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.sonuta9e3n'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.sonuta9e3n'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.cyvhxkcmj8q'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.cyvhxkcmj8q'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.57x15zjs9bu'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.57x15zjs9bu'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.qk8mobprz0h'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.qk8mobprz0h'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.dn05t8jccdg'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.dn05t8jccdg'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.mlvgzvq62u'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.mlvgzvq62u'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.fmgvk39s2qd'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.fmgvk39s2qd'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.348pbwvf1p7'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.348pbwvf1p7'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.3gs9jcjpt7i'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.3gs9jcjpt7i'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.mlvgzvq62u'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.mlvgzvq62u'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.ajsi0gzzjie'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.ajsi0gzzjie'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.kmqxm5idu1e'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.kmqxm5idu1e'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.7dl115mjckm'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.7dl115mjckm'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.t484fzpyevr'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.t484fzpyevr'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.sv1iaf5jqo'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.sv1iaf5jqo'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.kmqxm5idu1e'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.kmqxm5idu1e'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.6tvvhogrhty'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.6tvvhogrhty'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.phrjgmrigcj'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.phrjgmrigcj'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.1tfefelftvt'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.1tfefelftvt'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.mj0muh7546i'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.mj0muh7546i'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.1tfefelftvt'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.1tfefelftvt'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.12wi3o8rrcfm'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.12wi3o8rrcfm'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.7klw5l9d11g'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.7klw5l9d11g'
+}
+ ✓ Compiled in 57ms
+ ✓ Compiled in 25ms
+ ✓ Compiled / in 20ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.os2vt8nze99'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.os2vt8nze99'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.p15cgibc8gf'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.p15cgibc8gf'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.os2vt8nze99'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.os2vt8nze99'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.xh89qrlnyon'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.xh89qrlnyon'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.3yt8k9bofyg'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.3yt8k9bofyg'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.anrjoziq7k'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.anrjoziq7k'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.t0oj1wofvfj'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.t0oj1wofvfj'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.anrjoziq7k'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.anrjoziq7k'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.in72fvi14dj'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.in72fvi14dj'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.wsitrkn2o0r'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.wsitrkn2o0r'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.1vozcekgzbj'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.1vozcekgzbj'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.v2e0y7ur2wf'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.v2e0y7ur2wf'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.1vozcekgzbj'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.1vozcekgzbj'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.x4aa8gy5dyj'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.x4aa8gy5dyj'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.ng10ohyzrc'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.ng10ohyzrc'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.8qhjx3nz53j'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.8qhjx3nz53j'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.yljblg1l7x'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.yljblg1l7x'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.8qhjx3nz53j'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.8qhjx3nz53j'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.hfgo063byvs'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.hfgo063byvs'
+}
+[Error: ENOENT: no such file or directory, open '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.u5wohy4nqpe'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/010112/student-athlete-portal/.next/static/development/_buildManifest.js.tmp.u5wohy4nqpe'
+}

@@ -9,15 +9,17 @@ type FAQProps = {
 
 export function FAQ({ items }: FAQProps) {
   return (
-    <section id="faq" className="mx-auto max-w-6xl px-4 py-10">
-      <h2 className="text-2xl font-semibold tracking-tight">Frequently Asked Questions</h2>
-      <div className="mt-6 divide-y divide-black/10 dark:divide-white/10 rounded-lg border border-black/10 dark:border-white/15 bg-black/5 dark:bg-white/10">
+    <section id="faq" className="mx-auto max-w-6xl px-4 py-16">
+      <h2 className="text-3xl font-bold tracking-tight text-center mb-12 bg-gradient-to-r from-slate-900 to-slate-600 dark:from-white dark:to-slate-300 bg-clip-text text-transparent">
+        Frequently Asked Questions
+      </h2>
+      <div className="divide-y divide-slate-200 dark:divide-slate-700 rounded-2xl border-2 border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 shadow-xl">
         {items.map((item, idx) => (
           <details key={idx} className="group">
-            <summary className="cursor-pointer list-none px-4 py-4 font-medium">
+            <summary className="cursor-pointer list-none px-6 py-6 font-semibold text-lg text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
               <span>{item.question}</span>
             </summary>
-            <div className="px-4 pb-4 pt-2 text-sm text-black/75 dark:text-white/70">
+            <div className="px-6 pb-6 pt-2 text-base text-slate-600 dark:text-slate-400 leading-relaxed">
               {item.answer}
             </div>
           </details>

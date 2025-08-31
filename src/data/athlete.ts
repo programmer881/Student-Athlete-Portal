@@ -49,7 +49,7 @@ export const athlete: AthleteProfile = {
     weight: "205 lbs",
     gpa: "4.02",
     wingspan: "6'5\"",
-    sprint50m: "6.8s",
+    sprint50m: "26.24s",
     vertical: "28\"",
   },
   socials: {
